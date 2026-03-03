@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anti-Graffiti | Artist Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@800&family=Outfit:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">AG.</div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#art-numerique" class="nav-link">Art Numérique</a>
+        <a href="#design-produit" class="nav-link">Design de Produit</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <main class="smooth-scroll-wrapper">
+      <!-- Home Section -->
+      <section id="home" class="section hero-section">
+        <!-- Mechanical Pattern Background -->
+        <div class="hero-mech-bg"></div>
+
+        <div class="hero-content">
+          <p class="hero-subtitle">Anti-Graffiti Artist</p>
+          <h1 class="hero-title">
+            <span class="line"><span class="word">Maissae</span></span>
+            <span class="line"><span class="word">Ben</span></span>
+            <span class="line"><span class="word">Azzouz.</span></span>
+          </h1>
+          <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="line"></div>
+          </div>
+        </div>
+        <!-- Background element for visual interest -->
+        <div class="hero-bg-accent"></div>
+      </section>
+
+      <!-- Art Numérique Section -->
+      <section id="art-numerique" class="section numerique-section">
+        <div class="container">
+          <h2 class="section-title monument-title">Art Numérique.</h2>
+          <p class="section-desc">
+            Exploration de la zone où le métal rencontre l'humain à travers l'interactivité numérique.
+          </p>
+          <div class="numerique-hero-grid">
+            <div class="floating-item" data-speed="1.2">
+              <img src="images/la visite 1-01.jpg" alt="La Visite" />
+            </div>
+            <div class="floating-item" data-speed="0.8">
+              <img src="images/snake.jpg" alt="Snake" />
+            </div>
+            <div class="floating-item pattern-float" data-speed="1.5">
+              <div class="float-mech-bg"></div>
+            </div>
+          </div>
+
+          <!-- Projets Clés -->
+          <div class="projects-list">
+            <!-- Projet La Visite -->
+            <div class="project-card">
+              <div class="project-info">
+                 <h3 class="monument-title project-title">La Visite <span class="project-year">(2026)</span></h3>
+                 <p class="project-desc">
+                   Installation immersive où les organes vitaux deviennent des pièces mécaniques. Ce projet se décline sous la forme d'un <strong>Rapport de Visite Technique</strong> documentant méticuleusement chaque transformation de l'anatomie humaine en rouages industriels.
+                 </p>
+                 <a href="https://youtube.com" target="_blank" class="btn">Voir la Vidéo</a>
+              </div>
+              <div class="project-visuals grid-3">
+                 <img src="images/la visite 1-01.jpg" alt="Rapport de Visite 1" loading="lazy">
+                 <img src="images/la visite 2-01-01.jpg" alt="Rapport de Visite 2" loading="lazy">
+                 <img src="images/la visite 3-01.jpg" alt="Rapport de Visite 3" loading="lazy">
+              </div>
+            </div>
+
+            <!-- Projet Snake -->
+            <div class="project-card reverse">
+              <div class="project-visuals">
+                 <img src="images/snake.jpg" alt="Snake - Métaphore de l'hyper-consommation" loading="lazy">
+              </div>
+              <div class="project-info">
+                 <h3 class="monument-title project-title">Snake <span class="project-year">(2025)</span></h3>
+                 <p class="project-desc">
+                   Véritable métaphore de l'hyper-consommation, cette œuvre s'appuie sur la réappropriation visuelle d'un joint de culasse numérique. Le composant s'étend et se déploie à l'infini, rongeant son propre espace dans un cycle sans fin.
+                 </p>
+              </div>
+            </div>
+
+            <!-- Projet Dialogue avec le Joint de Culasse -->
+            <div class="project-card">
+              <div class="project-info">
+                 <h3 class="monument-title project-title">Dialogue avec<br>le Joint de Culasse <span class="project-year">(2024)</span></h3>
+                 <p class="project-desc">
+                   Une expérience interactive conçue via <strong>Kinect</strong> et <strong>TouchDesigner</strong>. L'œuvre invite le spectateur à interagir physiquement avec le motif mécanique, instaurant un dialogue direct et réactif entre le corps humain et l'interface numérique.
+                 </p>
+              </div>
+              <div class="project-visuals">
+                 <div class="interactive-kinect-box">
+                   <div class="interactive-kinect-pattern"></div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Design de Produit Section -->
+      <section id="design-produit" class="section design-section">
+        <div class="container">
+          <h2 class="section-title monument-title">Design de Produit.</h2>
+          <p class="section-desc">
+            Réincarnation des rebuts industriels en objets de design fonctionnel et ergonomique.
+          </p>
+          <div class="carousel-container">
+            <div class="carousel-track">
+              <div class="carousel-slide"><img src="images/chaise-01.jpg" alt="Chaise" /></div>
+              <div class="carousel-slide"><img src="images/lamp 2-01.jpg" alt="Lampe" /></div>
+              <div class="carousel-slide"><img src="images/tabl.jpg" alt="Table Basse" /></div>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn prev-btn">Prev</button>
+              <button class="carousel-btn next-btn">Next</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about-section relative-section">
+        <!-- Mechanical Pattern Background for About -->
+        <div class="about-mech-bg"></div>
+        <div class="container relative-z">
+          <div class="about-grid">
+            <div class="text-column">
+              <h2 class="section-title about-title">Maissae.</h2>
+              <p class="about-text">
+                Artiste visuelle et designer, ma pratique est une quête pour transcender le silence des objets délaissés. Mon univers se concentre sur la métamorphose des composants automobiles en entités organiques douées de sensibilité.
+              </p>
+            </div>
+            <div class="image-column">
+              <div class="about-image-wrapper">
+                <img
+                  src="images/ana.jpg"
+                  alt="Maissae - Artiste"
+                  class="about-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <h2 class="section-title">Get in Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <p class="contact-email">hello@antigraffiti.art</p>
+              <div class="social-links">
+                <a href="#" class="social-link" title="Instagram">In.</a>
+                <a href="#" class="social-link" title="Twitter">Tw.</a>
+                <a href="#" class="social-link" title="Behance">Be.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>&copy; 2026 Anti-Graffiti Artist. All rights reserved.</p>
+        </footer>
+      </section>
+    </main>
+
+    <!-- Video Modal Overlay -->
+    <div id="video-modal" class="modal">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <div class="video-container">
+          <!-- Placeholder for showcase video -->
+          <div class="video-placeholder">
+            <div class="play-icon"></div>
+            <p>Showcase Video</p>
+          </div>
+        </div>
+        <div class="modal-text">
+          <h3 class="modal-title">Work Title</h3>
+          <p class="modal-desc">
+            Detailed AI generated description will appear here...
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
